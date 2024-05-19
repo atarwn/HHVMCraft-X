@@ -13,6 +13,7 @@ class Logger {
 
 	public $options;
 	public $PacketLog;
+	public $ServerLog;
 
 	public function __construct() {
 		if (!file_exists("logs/")) {

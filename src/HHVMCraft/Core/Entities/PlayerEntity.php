@@ -19,13 +19,14 @@ class PlayerEntity extends LivingEntity {
 		$this->username = $Client->username;
 	}
 
-	public function spawnPacket() {
-		return new SpawnPlayerPacket($this->entityId,
-			$this->Position->x,
-			$this->Position->y,
-			$this->Position->z,
-			((($this->Yaw % 360) / 360) * 256),
-			((($this->Pitch % 360) / 360) * 256),
-			0);
-	}
+    public function spawnPacket() {
+        return new SpawnPlayerPacket($this->entityId,
+            $this->username,
+            $this->Position->x,
+            $this->Position->y,
+            $this->Position->z,
+            (int)((($this->Yaw % 360) / 360) * 256),
+            (int)((($this->Pitch % 360) / 360) * 256),
+            0);
+    }
 }

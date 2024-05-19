@@ -142,7 +142,7 @@ class NBT {
         E_USER_NOTICE);
       $fp = fopen("{$wrapper}{$filename}", "wb");
     }
-    elseif (is_null($wrapper) && is_resource($fp)) {
+    elseif (is_null($wrapper) && is_resource(fopen("{$wrapper}{$filename}", "rb"))) {
       if ($this->verbose) trigger_error("Writing file to existing resource.", E_USER_NOTICE);
       $fp = $filename;
     }

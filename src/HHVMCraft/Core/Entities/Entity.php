@@ -12,6 +12,7 @@ class Entity {
 	public $uuid;
 
 	public $Position;
+	public $OldPosition;
 	public $Velocity;
 	public $Yaw;
 	public $Pitch;
