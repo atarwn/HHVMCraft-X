@@ -5,6 +5,7 @@ namespace HHVMCraft\Core\World;
 use HHVMCraft\API\Coordinates2D;
 use HHVMCraft\API\Coordinates3D;
 use HHVMCraft\Core\TerrainGen\FlatlandGenerator;
+use HHVMCraft\Core\TerrainGen\PerlinGenerator;
 
 class World {
 	public $worldname;
@@ -18,7 +19,7 @@ class World {
 	public function __construct($worldname, $BlockProvider) {
 		$this->worldname = $worldname;
 		$this->BlockProvider = $BlockProvider;
-		$this->ChunkProvider = new FlatlandGenerator();
+		$this->ChunkProvider = new PerlinGenerator();
 	}
 
 	public function getTime() {

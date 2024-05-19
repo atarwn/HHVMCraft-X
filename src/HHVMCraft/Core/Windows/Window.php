@@ -18,13 +18,13 @@ class Window {
 	public function moveToAlternateArea($index) {
 		$fromIndex = $this->getAreaIndex($index);
 		$from = $this->getArea($index);
-		$slot = $this->from[$index];
+		$slot = $from[$index];
 
 		if ($slot == null) {
 			return;
 		}
 
-		$to = $this->getLinkedArea($fromIndex, $slot);
+		$to = $this->getLinkedArea($fromIndex, $slot); // !ERROR /* Undefined method 'getLinkedArea'.intelephense(P1013) */
 		$destination = $to->moveOrMergeItem($index, $slot, $from);
 		$this->windowChange($destination + $to->startIndex, $slot);
 	}
@@ -41,7 +41,7 @@ class Window {
 	// Get the window area responsible for this index, and modify index accordingly.
 
 	public function getArea(&$index) {
-		foreach ($WindowAreas as $Area) {
+		foreach ($this->WindowAreas as $Area) {
 			if ($Area->startIndex <= $index && $Area->startIndex + $Area->length > $index) {
 				$index = $index - $Area->startIndex;
 				return $Area;
@@ -71,7 +71,7 @@ class Window {
 	public function isEmpty() {
 		$hasStuff = false;
 
-		foreach ($WindowAreas as $Area) {
+		foreach ($this->WindowAreas as $Area) {
 			foreach ($Area->Items as $Item) {
 				if (!empty($Item)) {
 					$hasStuff = true;

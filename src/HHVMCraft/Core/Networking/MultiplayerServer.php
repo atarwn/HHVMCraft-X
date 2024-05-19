@@ -33,6 +33,11 @@ class MultiplayerServer extends EventEmitter {
 	public $EntityManager;
 	public $World;
 
+	public $BlockRepository;
+	public $CraftingRepository;
+	public $Logger;
+
+
 	public $loop;
 	public $socket;
 

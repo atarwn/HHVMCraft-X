@@ -3,6 +3,7 @@
 namespace HHVMCraft\Core\Windows;
 
 use HHVMCraft\API\ItemStack;
+use HHVMCraft\API\CraftingRepository;
 
 class CraftingWindowArea extends WindowArea {
 	const craftingOutput = 0;
@@ -18,13 +19,13 @@ class CraftingWindowArea extends WindowArea {
 	}
 
 	public function handleWindowChange($index, $value) {
-		$current = $CraftingRepository->getRecipe($this->Bench());
+		$current = $this->CraftingRepository->getRecipe($this->Bench());
 
 		if ($index == self::craftingOutput) {
 			if (empty($value) && $current != null) {
 				$this->removeItemFromOutput($current);
 
-				$current = $CraftingRepository->getRecipe($this->Bench());
+				$current = $this->CraftingRepository->getRecipe($this->Bench());
 			}
 		}
 
@@ -51,7 +52,7 @@ class CraftingWindowArea extends WindowArea {
 		for ($x = 0; $x < $this->width; $x++) {
 			$found = false;
 			for ($y = 0; $y < $this->height; $y++) {
-				if ($CraftingRepository->testRecipe($this->Bench(), $Recipe, $x, $y)) {
+				if ($this->CraftingRepository->testRecipe($this->Bench(), $Recipe, $x, $y)) {
 					$found = true;
 					break;
 				}

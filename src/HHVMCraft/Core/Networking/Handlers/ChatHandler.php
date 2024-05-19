@@ -12,8 +12,16 @@ class ChatHandler {
 		if ($Packet->message[0] == "/") {
 			self::handleCommand($Packet->message, $Client, $Server);
 		} else {
-			$message = "<" . $Client->username . "> " . $Packet->message;
-			$Server->sendMessage($message);
+			switch ($Client->username) {
+				case ("atarwn"):
+					$message = "[" . $Client->username . "] " . $Packet->message;
+					$Server->sendMessage($message);
+					break;
+				default:
+					$message = "<" . $Client->username . "> " . $Packet->message;
+					$Server->sendMessage($message);
+					break;
+			}
 		}
 	}
 
@@ -86,8 +94,11 @@ class ChatHandler {
 				$Client->username = $args[1];
 				$Client->PlayerEntity->username = $args[1];
 				break;
+			case "/help":
+				$Client->sendMessage("/buffer\n/ping\n/kill\n/sethealth\n/getpos\n/give\n/heart\n/rename");
+				break;
 			default:
-				$Client->sendMessage("Command not recognized!");
+				$Client->sendMessage("Command not recognized! use /help for available commands.");
 		}
 	}
 
