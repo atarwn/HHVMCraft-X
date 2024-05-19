@@ -1,11 +1,11 @@
-![logo](https://github.com/atarwn/HHVMCraft/raw/master/docs/hhvmcraft.png)
+![logo](https://raw.githubusercontent.com/atarwn/HHVMCraft-X/master/docs/hhvmcraft.png)
 
 Works on PHP 7.0.0 RC6 and HHVM 3.10.1!
 
 A Minecraft Beta 1.7.3 Server implemented in PHP, based off of 
 [Truecraft's implementation](https://github.com/SirCmpwn/TrueCraft). Powered by [ReactPHP](http://reactphp.org/) (with some parts patched).
 
-![demo](https://github.com/atarwn/HHVMCraft/raw/master/docs/demo.png)
+![demo](https://raw.githubusercontent.com/atarwn/HHVMCraft-X/master/docs/demo.png)
 
 The goal of this project is not to be a fully-functional server,
 but rather a proof-of-concept for PHP and HHVM.
@@ -21,8 +21,6 @@ and
 `php server.php` or `hhvm server.php`!
 
 Make sure you're using the b1.7.3 client! Check the `Allow use of Old Beta Minecraft Versions`.
-
-![](https://cloud.githubusercontent.com/assets/2051361/11055769/2b601e68-872f-11e5-81f3-da8c1a9e83ff.png)
 
 ### Why?
 
