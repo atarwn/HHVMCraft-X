@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="1920"
+   height="400"
+   viewBox="0 0 507.99998 105.83333"
+   version="1.1"
+   id="svg1"
+   inkscape:export-filename="hhvmcraft.png"
+   inkscape:export-xdpi="96"
+   inkscape:export-ydpi="96"
+   inkscape:version="1.3.2 (091e20e, 2023-11-25, custom)"
+   sodipodi:docname="svg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview1"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     inkscape:document-units="mm"
+     inkscape:zoom="0.1767767"
+     inkscape:cx="537.40115"
+     inkscape:cy="-240.4163"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs1">
+    <inkscape:path-effect
+       effect="fill_between_many"
+       method="originald"
+       linkedpaths="#path29,0,1|#path28,0,1|#path30,0,1"
+       id="path-effect30"
+       is_visible="true"
+       lpeversion="0"
+       join="true"
+       close="true"
+       autoreverse="true" />
+  </defs>
+  <g
+     inkscape:label="Слой 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <text
+       xml:space="preserve"
+       style="font-style:italic;font-weight:bold;font-size:66.9134px;font-family:Calibri;-inkscape-font-specification:'Calibri Bold Italic';fill:#000000;fill-opacity:1;stroke-width:0.348507"
+       x="97.469307"
+       y="77.992851"
+       id="text28"><tspan
+         sodipodi:role="line"
+         id="tspan28"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:66.9134px;font-family:ex;-inkscape-font-specification:ex;fill:#000000;stroke-width:0.348507"
+         x="97.469307"
+         y="77.992851">HHVMCraftX</tspan></text>
+    <g
+       id="g31"
+       transform="matrix(0.49322593,0,0,0.49322593,-18.710856,-17.553116)">
+      <path
+         d="M 121.85458,45.973938 C 93.882113,62.124483 65.908934,78.27519 37.936186,94.425244 65.908631,110.57517 93.881334,126.72557 121.85406,142.875 c 1.3e-4,7e-5 3.9e-4,-7e-5 5.2e-4,0 27.97279,-16.14926 55.94534,-32.29967 83.91736,-48.450273 C 177.79943,78.274686 149.82709,62.123963 121.85458,45.973938 Z m 83.91736,48.450789 c 0,5.17e-4 0,10e-4 0,0.0016 5.3e-4,-3.1e-4 0.001,-7.24e-4 0.002,-0.001 -4.7e-4,-2.67e-4 -0.001,-2.5e-4 -0.002,-5.17e-4 z"
+         style="fill:#8d5fd3;stroke-width:0.559343"
+         id="path30" />
+      <path
+         d="M 205.77194,94.424727 C 177.79989,110.57535 149.8274,126.72573 121.85458,142.875 c -9e-5,32.30011 -4.3e-4,64.60043 -5.2e-4,96.90055 27.97284,-16.15004 55.94605,-32.30026 83.91891,-48.45028 -5.6e-4,-32.30014 -10e-4,-64.6004 -10e-4,-96.900543 z"
+         style="fill:#3e3748;stroke-width:0.559343"
+         id="path29" />
+      <path
+         d="m 37.935669,94.425244 c 8.35e-4,32.299986 7.29e-4,64.600036 0,96.900026 27.973015,16.14992 55.945886,32.30051 83.918391,48.45131 9e-5,-32.30049 4.3e-4,-64.60109 5.2e-4,-96.90158 C 93.881537,126.72539 65.908429,110.57535 37.935669,94.425244 Z"
+         style="fill:#5d536c;stroke-width:0.559343"
+         id="path28" />
+    </g>
+  </g>
+</svg>
