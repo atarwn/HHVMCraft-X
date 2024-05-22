@@ -36,7 +36,7 @@ So if you have any comments or if you have any crazy fun/interesting ideas for m
 
 ## Current Progress
 
-View [Things to make functional demo](https://github.com/atarwn/HHVMCraft/issues/2)!
+View [Things to make functional demo](https://github.com/atarwn/HHVMCraft-X/issues/2)!
 
 ## Libraries used
 
