@@ -1,11 +1,11 @@
 {
-    "name": "hhvmcraft",
+    "name": "atarwn/hhvmcraft-x",
     "description": "A Minecraft Beta 1.7.3 Server Implementation",
     "license": "MIT",
     "authors": [
         {
-            "name": "Andrew Vy",
-            "email": "andrew@andrewvy.com"
+            "name": "Atarwn",
+            "email": "a@qwa.su"
         }
     ],
     "require": {
